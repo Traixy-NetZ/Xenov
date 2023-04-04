@@ -14,7 +14,7 @@ local function displayErrorPopup(text, func)
 	local prompt = ErrorPrompt.new("Default")
 	prompt._hideErrorCode = true
 	local gui = Instance.new("ScreenGui", game:GetService("CoreGui"))
-	prompt:setErrorTitle("Vape")
+	prompt:setErrorTitle("Xenov")
 	prompt:updateButtons({{
 		Text = "OK",
 		Callback = function() 
